@@ -1,0 +1,1 @@
+alias vim=$HOME/v
