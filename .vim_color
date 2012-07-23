@@ -1,0 +1,95 @@
+set background=dark "or light
+highlight clear
+if exists("syntax_on")
+  syntax reset
+endif
+let g:colors_name = "vivify"
+set t_Co=256
+
+highlight Boolean             guifg=#ff00aa ctermfg=199                           gui=bold cterm=bold
+highlight CTagsClass          guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight CTagsGlobalConstant guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight CTagsGlobalVariable guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight CTagsImport         guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight CTagsMember         guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight Character           guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight Comment             guifg=#4682b4 ctermfg=67                            gui=none cterm=none
+highlight Conditional         guifg=#00bfff ctermfg=39                            gui=none cterm=none
+highlight Constant            guifg=#ff8080 ctermfg=210                           gui=none cterm=none
+highlight Cursor              guifg=#fffafa ctermfg=224 guibg=#cd5c5c ctermbg=167 gui=none cterm=none
+highlight CursorColumn        guifg=#eeeeee ctermfg=255 guibg=#003853 ctermbg=24  gui=none cterm=none
+highlight CursorLine          guifg=#eeeeee ctermfg=255 guibg=#003853 ctermbg=24  gui=none cterm=none
+highlight Debug               guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight Define              guifg=#ff0000 ctermfg=196                           gui=bold cterm=bold
+highlight DefinedName         guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight Delimiter           guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight DiffAdd             guifg=#ffff00 ctermfg=11  guibg=#006000 ctermbg=22  gui=none cterm=none
+highlight DiffChange          guifg=#ffff00 ctermfg=11  guibg=#000060 ctermbg=17  gui=none cterm=none
+highlight DiffDelete          guifg=#000000 ctermfg=0   guibg=#600000 ctermbg=52  gui=none cterm=none
+highlight DiffText            guifg=#ffdab9 ctermfg=223 guibg=#ffff00 ctermbg=11  gui=italic,bold cterm=italic,bold
+highlight Directory           guifg=#20b2aa ctermfg=37                            gui=none cterm=none
+highlight EnumerationName     guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight EnumerationValue    guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight Error               guifg=#ffffe0 ctermfg=230 guibg=#b22222 ctermbg=124 gui=none cterm=none
+highlight ErrorMsg            guifg=#ffffe0 ctermfg=230 guibg=#b22222 ctermbg=124 gui=none cterm=none
+highlight Exception           guifg=#90ee90 ctermfg=114                           gui=bold cterm=bold
+highlight Float               guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight FoldColumn          guifg=#ff8080 ctermfg=210 guibg=#000000 ctermbg=0   gui=italic,bold cterm=italic,bold
+highlight Folded              guifg=#b0e0e6 ctermfg=152 guibg=#4682b4 ctermbg=67  gui=bold cterm=bold
+highlight Function            guifg=#6666ff ctermfg=63                            gui=none cterm=none
+highlight Identifier          guifg=#6b8e23 ctermfg=64                            gui=none cterm=none
+highlight Ignore              guifg=#204050 ctermfg=74                            gui=none cterm=none
+highlight IncSearch           guifg=#8b1a1a ctermfg=88  guibg=#ffefdb ctermbg=223 gui=none cterm=none
+highlight Include             guifg=#a2b5cd ctermfg=110                           gui=none cterm=none
+highlight Keyword             guifg=#ff6347 ctermfg=209                           gui=bold cterm=bold
+highlight Label               guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight LineNr              guifg=#b9d3ee ctermfg=153 guibg=#0f0f0f ctermbg=233 gui=bold cterm=bold
+highlight LocalVariable       guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight Macro               guifg=#8db6cd ctermfg=74                            gui=none cterm=none
+highlight MatchParen          guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight ModeMsg             guifg=#90ee90 ctermfg=114 guibg=#006400 ctermbg=22  gui=none cterm=none
+highlight MoreMsg             guifg=#2e8b57 ctermfg=72                            gui=bold cterm=bold
+highlight NonText             guifg=#3d5d6d ctermfg=74  guibg=#123a4a ctermbg=24  gui=none cterm=none
+highlight Normal              guifg=#90c009 ctermfg=106 guibg=#000000 ctermbg=0   gui=none cterm=none
+highlight Number              guifg=#ffdab9 ctermfg=223                           gui=none cterm=none
+highlight Operator            guifg=#f08080 ctermfg=210                           gui=none cterm=none
+highlight PMenu               guifg=#dddddd ctermfg=253 guibg=#747678 ctermbg=67  gui=bold cterm=bold
+highlight PMenuSbar           guifg=#dddddd ctermfg=253 guibg=#949698 ctermbg=67  gui=bold cterm=bold
+highlight PMenuSel            guifg=#88dd88 ctermfg=114 guibg=#a4a6a8 ctermbg=67  gui=bold cterm=bold
+highlight PMenuThumb          guifg=#dddddd ctermfg=253 guibg=#c4c6c8 ctermbg=110 gui=bold cterm=bold
+highlight PreCondit           guifg=#a4d3ee ctermfg=117                           gui=none cterm=none
+highlight PreProc             guifg=#ffff00 ctermfg=11                            gui=italic cterm=italic
+highlight Question            guifg=#4eee94 ctermfg=85                            gui=bold cterm=bold
+highlight Repeat              guifg=#4eee94 ctermfg=85                            gui=none cterm=none
+highlight Search              guifg=#fffafa ctermfg=224 guibg=#1e90ff ctermbg=33  gui=none cterm=none
+highlight SignColumn          guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight Special             guifg=#66cdaa ctermfg=79                            gui=bold cterm=bold
+highlight SpecialChar         guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight SpecialComment      guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight SpecialKey          guifg=#324262 ctermfg=68  guibg=#103040 ctermbg=24  gui=none cterm=none
+highlight SpellBad            guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight SpellCap            guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight SpellLocal          guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight SpellRare           guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight Statement           guifg=#f0f0ff ctermfg=189                           gui=none cterm=none
+highlight StatusLine          guifg=#b0e0e6 ctermfg=152 guibg=#4682b4 ctermbg=67  gui=bold cterm=bold
+highlight StatusLineNC        guifg=#ffe4e1 ctermfg=224 guibg=#778899 ctermbg=67  gui=none cterm=none
+highlight StorageClass        guifg=#add8e6 ctermfg=81                            gui=none cterm=none
+highlight String              guifg=#bfbfbf ctermfg=7                             gui=none cterm=none
+highlight Structure           guifg=#add8e6 ctermfg=81                            gui=none cterm=none
+highlight TabLine             guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight TabLineFill         guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight TabLineSel          guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight Tag                 guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight Title               guifg=#000000 ctermfg=0   guibg=#ffffff ctermbg=15  gui=bold cterm=bold
+highlight Todo                guifg=#00ffff ctermfg=14  guibg=#507080 ctermbg=74  gui=none cterm=none
+highlight Type                guifg=#ffffc8 ctermfg=230                           gui=none cterm=none
+highlight Typedef             guifg=#ff00c8 ctermfg=200                           gui=none cterm=none
+highlight Underlined          guifg=#838b83 ctermfg=65                            gui=underline cterm=underline
+highlight Union               guifg=#eeeeee ctermfg=255                           gui=none cterm=none
+highlight VertSplit           guifg=#87ceeb ctermfg=117 guibg=#000000 ctermbg=0   gui=none cterm=none
+highlight Visual              guifg=#000000 ctermfg=0   guibg=#ffff00 ctermbg=11  gui=none cterm=none
+highlight VisualNOS           guifg=#eeeeee ctermfg=255                           gui=bold,underline cterm=bold,underline
+highlight WarningMsg          guifg=#ff3030 ctermfg=203                           gui=bold cterm=bold
+highlight WildMenu            guifg=#000000 ctermfg=0   guibg=#7fff00 ctermbg=118 gui=bold cterm=bold
+highlight pythonBuiltin       guifg=#90c009 ctermfg=106                           gui=none cterm=none
